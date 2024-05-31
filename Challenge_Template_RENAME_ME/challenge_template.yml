@@ -14,6 +14,11 @@ flags:
 # files: 
   # - FILE_HERE.txt
 
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
 tags:
   - tag_here
 
