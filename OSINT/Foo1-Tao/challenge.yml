@@ -1,0 +1,13 @@
+name: "Example"
+author: "txendp"
+category: OSINT
+description: Tiger is  kiddnapped by the president!!! 
+value: 100
+type: standard
+flags: 
+  - NCC{It_is_$3@rchAble}
+tags:
+  - osint
+
+state: visible
+version: "0.1"
