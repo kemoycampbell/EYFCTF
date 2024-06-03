@@ -1,0 +1,26 @@
+name: "Shift Cipher"
+author: "AUTHOR HERE"
+category: Crytography
+
+description: The kidnappers decided that they will shift things up. They are now using real cipher instead of just changing the encode.... Can you shift and get the hidden message? 
+
+value: 400
+type: standard
+
+flags:
+  - EYF{Flag_HERE}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"

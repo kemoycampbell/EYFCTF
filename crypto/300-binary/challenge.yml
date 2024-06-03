@@ -1,0 +1,26 @@
+name: "Binary in Video"
+author: "AUTHOR HERE"
+category: Crytography
+
+description: Don't blink or you will miss the message!!! (Make a video with binary numbers moving horizontally, 10 secs).
+
+value: 300
+type: standard
+
+flags:
+  - EYF{Flag_HERE}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"

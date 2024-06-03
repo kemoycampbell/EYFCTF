@@ -1,0 +1,26 @@
+name: "Unbreakable"
+author: "AUTHOR HERE"
+category: Crytography
+
+description: The kidnappers decided to build their own encryption system. They claimed that no one could break it. Our security team was able to obtain the source code of the encryption. Crack it!
+
+value: 500
+type: standard
+
+flags:
+  - EYF{Flag_HERE}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"

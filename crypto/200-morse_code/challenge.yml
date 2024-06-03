@@ -1,10 +1,10 @@
-name: "NAME HERE"
+name: "Morse Code"
 author: "AUTHOR HERE"
-category: CATEGORY_HERE
+category: Crytography
 
-description: DESCRIPTION_HERE
+description: The kidnaper has level up their game. They realized that their first encryption was not secure at all... you should not be able to read this dot dot dot dot :-) 
 
-value: 0
+value: 200
 type: standard
 
 flags:
