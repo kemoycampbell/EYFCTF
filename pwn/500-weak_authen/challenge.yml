@@ -1,10 +1,10 @@
-name: "NAME HERE"
+name: "Weak Authentication"
 author: "AUTHOR HERE"
-category: CATEGORY_HERE
+category: PWN
 
-description: DESCRIPTION_HERE
+description: Ah, you found the robot.....One of the paths will lead you to the kidnappers of Ritchie.  The kidnappers swore that no one will be able to guess the username and password! 
 
-value: 0
+value: 500
 type: standard
 
 flags:

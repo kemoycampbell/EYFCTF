@@ -1,10 +1,10 @@
-name: "NAME HERE"
+name: "Back in time"
 author: "AUTHOR HERE"
-category: CATEGORY_HERE
+category: Forensic
 
-description: DESCRIPTION_HERE
+description: The kidnappers were communicating their plan on Reddit to kidnap Ritchie. However, the post was removed... Can you recover what was deleted from this url? <url> 
 
-value: 0
+value: 500
 type: standard
 
 flags:

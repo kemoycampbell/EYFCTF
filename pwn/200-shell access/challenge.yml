@@ -1,10 +1,10 @@
-name: "Locate Accounts Challenge"
+name: "Shell Access"
 author: "AUTHOR HERE"
-category: OSINT
+category: PWN
 
-description: Ritchie is an avid fan on popular social media platforms where he frequently posts various updates. Locate his accounts!
+description: The kidnappers were able to log into Ritchie computer remotely. Ritchie is not following the security best practices. Hack into his computer and get the flag.
 
-value: 100
+value: 200
 type: standard
 
 flags:

@@ -1,10 +1,10 @@
-name: "Locate Accounts Challenge"
+name: "Become Admin"
 author: "AUTHOR HERE"
-category: OSINT
+category: PWN
 
-description: Ritchie is an avid fan on popular social media platforms where he frequently posts various updates. Locate his accounts!
+description: Using the username and password from the shell access challenge, log into the machine. Make yourself root and read the .rootFlag file.
 
-value: 100
+value: 300
 type: standard
 
 flags:

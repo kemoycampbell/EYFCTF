@@ -1,8 +1,8 @@
-name: "Locate Accounts Challenge"
+name: "Router Default Username and Password"
 author: "AUTHOR HERE"
-category: OSINT
+category: PWN
 
-description: Ritchie is an avid fan on popular social media platforms where he frequently posts various updates. Locate his accounts!
+description: The kidnappers has been spying on Ritchie by hacked into Ritchie’s Wifi router. Can you login to Ritchie’s wifi? The wifi SSID is “Ritchie Wifi EYF” 
 
 value: 100
 type: standard

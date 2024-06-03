@@ -1,10 +1,10 @@
-name: "NAME HERE"
+name: "Ritchie Goes on Vacation 2.0"
 author: "AUTHOR HERE"
-category: CATEGORY_HERE
+category: OSINT
 
-description: DESCRIPTION_HERE
+description: The kidnappers also followed Ritchie to his second vacation location. Once you find the location, use https://what3words.com/ to pinpoint the exact spot.
 
-value: 0
+value: 500
 type: standard
 
 flags:
