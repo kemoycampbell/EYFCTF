@@ -1,0 +1,26 @@
+name: "SQL Injection"
+author: "AUTHOR HERE"
+category: Web
+
+description: The kidnapper exploited RIT’s database system via injection, which allowed them to get sensitive information. Can you exploit the system to obtain the same information? The website is http://rit.edu.
+
+value: 400
+type: standard
+
+flags:
+  - EYF{Flag_HERE}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"

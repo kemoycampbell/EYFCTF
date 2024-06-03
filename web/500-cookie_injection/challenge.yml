@@ -1,0 +1,26 @@
+name: "Cookie Injection"
+author: "AUTHOR HERE"
+category: Web
+
+description: The security team was able to download the source code of the kidnapper's server. Can you log in? 
+
+value: 500
+type: standard
+
+flags:
+  - EYF{Flag_HERE}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"
