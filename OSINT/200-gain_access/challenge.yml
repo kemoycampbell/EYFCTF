@@ -1,10 +1,10 @@
-name: "NAME HERE"
+name: "Gain Access to the Accounts"
 author: "AUTHOR HERE"
-category: CATEGORY_HERE
+category: OSINT
 
-description: DESCRIPTION_HERE
+description: The kidnappers were able to log in to Ritchie’s social media account based on his posts. Scan through the accounts for hints! 
 
-value: 0
+value: 200
 type: standard
 
 flags:

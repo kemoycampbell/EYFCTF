@@ -1,10 +1,10 @@
-name: "NAME HERE"
+name: "Ritchie in the News"
 author: "AUTHOR HERE"
-category: CATEGORY_HERE
+category: OSINT
 
-description: DESCRIPTION_HERE
+description: Verify a news source where Ritchie allegedly made a statement. Cross-check the validity and authenticity of the news.
 
-value: 0
+value: 400
 type: standard
 
 flags:
