@@ -1,0 +1,26 @@
+name: "EXFIL-Meta Data"
+author: "AUTHOR HERE"
+category: Forensic
+
+description: Ritchie took a picture during vacation. Where was this picture taken? (lat, long) 
+
+value: 200
+type: standard
+
+flags:
+  - EYF{Flag_HERE}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"

@@ -1,0 +1,26 @@
+name: "Trace the Bitcoin"
+author: "AUTHOR HERE"
+category: Forensic
+
+description: The kidnappers send money to each other for the kidnapping operation. One of our security operatives captured the details of a Bitcoin and now we need you to trace it to locate the kidnapper who sent it.
+
+value: 400
+type: standard
+
+flags:
+  - EYF{Flag_HERE}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"
