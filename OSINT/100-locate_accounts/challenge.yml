@@ -1,14 +1,14 @@
 name: "Locate Accounts Challenge"
-author: "AUTHOR HERE"
+author: "Kemoy Campbell"
 category: OSINT
 
-description: Ritchie is an avid fan on popular social media platforms where he frequently posts various updates. Locate his accounts!
+description: Ritchie is an avid fan on popular social media platforms where he frequently posts various updates. Locate his accounts! <br/> BTW, he frequently add EYF at the end of his accounts 
 
 value: 100
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{s0cia1_m3dia_@re_s3archable}
 
 # Optionals (Uncomment below)
 # files: 
@@ -20,7 +20,8 @@ flags:
 #   publicPort: ####
 
 tags:
-  - tag_here
+  - osint
+  - social media
 
 state: visible
 version: "0.1"
