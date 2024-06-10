@@ -1,18 +1,28 @@
 name: "Ritchie Goes on Vacation 2.0"
-author: "AUTHOR HERE"
+author: "Kemoy Campbell"
 category: OSINT
 
-description: The kidnappers also followed Ritchie to his second vacation location. Once you find the location, use https://what3words.com/ to pinpoint the exact spot.
+description: The kidnappers also followed Ritchie to his second vacation location. Once you find the location, use https://what3words.com/ to pinpoint the exact spot. <br/> Flag format EYF{word1.word2.word3}
 
 value: 500
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{tenders.outreach.handwriting}
+  - EYF{area.squeezed.oils}
+  - EYF{alright.bashful.future}
+  - EYF{shuffle.along.dumpy}
+  - EYF{thumps.after.vouch}
+  - EYF{thirsty.losses.slab}
+  - EYF{grit.nerve.communal}
+  - EYF{string.outlast.parkway}
+  - EYF{without.sleeper.cactus}
+  - EYF{cosmetic.acrobat.tutored}
+  - EYF{delved.shunted.tenders}
 
 # Optionals (Uncomment below)
 # files: 
-  # - FILE_HERE.txt
+   - ritchievacy.jpg
 
 # exposeService:
 #   protocol: http://
@@ -20,7 +30,8 @@ flags:
 #   publicPort: ####
 
 tags:
-  - tag_here
+  - osint
+  -what3words
 
 state: visible
 version: "0.1"
