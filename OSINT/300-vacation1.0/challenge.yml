@@ -8,15 +8,15 @@ value: 300
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{Old Town, Dubrovnik, Croatia}
 
 # Optionals (Uncomment below)
 # files: 
-  # - FILE_HERE.txt
+  - RitchieOnVacation1.jpg
 
 # exposeService:
 #   protocol: http://
-#   internalPort: 80
+#   internalPort: 80 
 #   publicPort: ####
 
 tags:
