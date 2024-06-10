@@ -1,5 +1,5 @@
 name: "Ritchie Goes on Vacation 1.0"
-author: "AUTHOR HERE"
+author: "Tao Eng"
 category: OSINT
 
 description: The kidnappers have been tracking Ritchie’s every move, including his vacation travels. They stalked Ritchie while he was taking pictures at these stairs. Where was Ritchie?
@@ -8,15 +8,15 @@ value: 300
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{Old Town, Dubrovnik, Croatia}
 
 # Optionals (Uncomment below)
 # files: 
-  # - FILE_HERE.txt
+  - RitchieOnVacation1.jpg
 
 # exposeService:
 #   protocol: http://
-#   internalPort: 80
+#   internalPort: 80 
 #   publicPort: ####
 
 tags:

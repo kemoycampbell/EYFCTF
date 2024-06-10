@@ -1,14 +1,14 @@
-name: "Router Default Username and Password"
-author: "AUTHOR HERE"
+name: "The default"
+author: "Tao Eng"
 category: PWN
 
-description: The kidnappers has been spying on Ritchie by hacked into Ritchie’s Wifi router. Can you login to Ritchie’s wifi? The wifi SSID is “Ritchie Wifi EYF” 
+description: The kidnappers has been spying on Ritchie by hacked into Ritchie’s Wifi router. Can you login to Ritchie’s wifi? The wifi SSID is “Ritchie Wifi EYF”.
 
 value: 100
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{admin, admin}
 
 # Optionals (Uncomment below)
 # files: 
