@@ -2,7 +2,7 @@ name: "The default"
 author: "Tao Eng"
 category: PWN
 
-description: The kidnappers has been spying on Ritchie by hacked into Ritchie’s Wifi router. Can you login to Ritchie’s wifi? The wifi SSID is “Ritchie Wifi EYF”.
+description: The kidnappers has been spying on Ritchie by hacked into Ritchie’s Wifi router. Can you login to Ritchie’s wifi? The wifi SSID is <b> Ritchie Wifi EYF</b>.
 
 value: 100
 type: standard
