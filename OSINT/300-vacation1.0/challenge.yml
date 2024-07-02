@@ -11,7 +11,7 @@ flags:
   - EYF{Old Town, Dubrovnik, Croatia}
 
 # Optionals (Uncomment below)
-# files: 
+files: 
   - RitchieOnVacation1.jpg
 
 # exposeService:
