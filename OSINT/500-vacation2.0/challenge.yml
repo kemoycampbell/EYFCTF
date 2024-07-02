@@ -19,9 +19,10 @@ flags:
   - EYF{without.sleeper.cactus}
   - EYF{cosmetic.acrobat.tutored}
   - EYF{delved.shunted.tenders}
+  - EYF{coaster.pitch.paddle}
 
 # Optionals (Uncomment below)
-# files: 
+files: 
    - ritchievacy.jpg
 
 # exposeService:
@@ -31,7 +32,7 @@ flags:
 
 tags:
   - osint
-  -what3words
+  - what3words
 
 state: visible
 version: "0.1"
