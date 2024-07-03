@@ -2,16 +2,17 @@ name: "Ritchie Goes on Vacation 1.0"
 author: "Tao Eng"
 category: OSINT
 
-description: The kidnappers have been tracking Ritchie’s every move, including his vacation travels. They stalked Ritchie while he was taking pictures at these stairs. Where was Ritchie?
+description: The kidnappers have been tracking Ritchie’s every move, including his vacation travels. They stalked Ritchie while he was taking pictures at these stairs. Where was Ritchie? The flag format is EYF{location1_location2_location3}
 
 value: 300
 type: standard
 
+# Add ignore case sensitivity (note)
 flags:
-  - EYF{Old Town, Dubrovnik, Croatia}
+  - EYF{Old Town_Dubrovnik_Croatia}
 
 # Optionals (Uncomment below)
-# files: 
+files: 
   - RitchieOnVacation1.jpg
 
 # exposeService:

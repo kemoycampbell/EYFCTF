@@ -1,14 +1,14 @@
 name: "Ritchie in the News"
-author: "AUTHOR HERE"
+author: "Tao Eng"
 category: OSINT
 
-description: Verify a news source where Ritchie allegedly made a statement. Cross-check the validity and authenticity of the news.
+description: On one occasion, Ritchie left the comfort of the tiger den to give an amazing surprise to a female student in Avon, NY. Locate the source of the news to find the name of the student who received the good news. The flag format will be EYF{Full_Name}
 
 value: 400
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{MacKenzie_Mislan}
 
 # Optionals (Uncomment below)
 # files: 
@@ -20,7 +20,8 @@ flags:
 #   publicPort: ####
 
 tags:
-  - tag_here
+  - osint
+  - news
 
 state: visible
 version: "0.1"
