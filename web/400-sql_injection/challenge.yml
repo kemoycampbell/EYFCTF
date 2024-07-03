@@ -8,19 +8,18 @@ value: 400
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{@lways_clean_y0ur_1nputs.1nput_Are_Hackable}
 
 # Optionals (Uncomment below)
 # files: 
   # - FILE_HERE.txt
 
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
+exposeService:
+  protocol: http://
+  publicPort: 5000
 
 tags:
-  - tag_here
+  - web, input manipulation
 
 state: visible
 version: "0.1"
