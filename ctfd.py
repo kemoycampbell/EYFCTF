@@ -51,19 +51,24 @@ def docker_container(directory):
     chall = open(challenge, 'r')
     challenge_yml = yaml.load(chall, Loader=yaml.FullLoader)
     if 'exposeService' in challenge_yml:
+        public_port = challenge_yml['exposeService']['publicPort']
+        
         #if we have a docker-compose, we will give the priority to it otherwise we will
         #use the dockerfile
-        if os.path.exist(f"{directory}/docker-compose.yml"):
+        docker_compose_file = f"{directory}/docker-compose.yml"
+        if os.path.exists(docker_compose_file):
             #stop the old docker and spin up the new one
             #this run in deatach mode
-            os.system("ocker compose down --remove-orphans -v && docker-compose up -d")
+            docker_compose_command = f"docker compose -f {docker_compose_file} down --remove-orphans -v && docker-compose -f {docker_compose_file} up --build -d"
+            print(docker_compose_command) 
+            os.system(docker_compose_command)
         else:
             #building the image based on the docker file
             tag = strip_special_characters(challenge_yml['name'])
             dir = directory.replace(' ', '\\ ') #we need the full path to the dockerfile and need to take care of spacing as well
             os.system(f"docker build -t {tag} {dir}") #build the image tag
             #run the image and start it using the latest build , desired port in deatach mode
-            public_port = challenge_yml['exposeService']['publicPort']
+            
             internal_port = challenge_yml['exposeService']['internalPort']
             
             #stop the previous image

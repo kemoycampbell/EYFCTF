@@ -1,25 +1,18 @@
-name: "SQL Injection"
-author: "AUTHOR HERE"
+name: SQL Injection
+author: AUTHOR HERE
 category: Web
-
-description: The kidnapper exploited RIT’s database system via injection, which allowed them to get sensitive information. Can you exploit the system to obtain the same information? The website is http://rit.edu.
-
+description: "The kidnapper exploited RIT\u2019s database system via injection, which\
+  \ allowed them to get sensitive information. Can you exploit the system to obtain\
+  \ the same information? The website is http://rit.edu.\nhttp://\n\n\n\n\n\n\n\n\n\
+  \n\n\n\nhttp://localhost:5000"
 value: 400
 type: standard
-
 flags:
-  - EYF{@lways_clean_y0ur_1nputs.1nput_Are_Hackable}
-
-# Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
-
+- EYF{@lways_clean_y0ur_1nputs.1nput_Are_Hackable}
 exposeService:
   protocol: http://
   publicPort: 5000
-
 tags:
-  - web, input manipulation
-
+- web, input manipulation
 state: visible
-version: "0.1"
+version: '0.1'
