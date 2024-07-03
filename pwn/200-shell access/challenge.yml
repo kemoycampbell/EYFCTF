@@ -1,26 +1,24 @@
-name: "Shell Access"
-author: "AUTHOR HERE"
+name: Shell Access
+author: Kemoy Campbell
 category: PWN
+description: 'The kidnappers were able to log into Ritchie computer remotely. Ritchie
+  is not following the security best practices. Hack into his computer and get the
+  flag.
 
-description: The kidnappers were able to log into Ritchie computer remotely. Ritchie is not following the security best practices. Hack into his computer and get the flag.
 
+
+  ssh localhost -p 22
+
+  ssh localhost -p 2222'
 value: 200
 type: standard
-
 flags:
-  - EYF{Flag_HERE}
-
-# Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
-
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
-
+- EYF{n3v3r_use_c0mm0n_p@sswords}
+exposeService:
+  protocol: ssh
+  internalPort: 2222
+  publicPort: 2222
 tags:
-  - tag_here
-
+- remote access, shell access, pwn
 state: visible
-version: "0.1"
+version: '0.1'

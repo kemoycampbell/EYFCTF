@@ -2,22 +2,17 @@ name: "Become Admin"
 author: "AUTHOR HERE"
 category: PWN
 
-description: Using the username and password from the shell access challenge, log into the machine. Make yourself root and read the .rootFlag file.
+description: 'Using the username and password from the shell access challenge, log into the machine. Make yourself root and read the .rootFlag file.
+
+
+ssh localhost -p 2222'
 
 value: 300
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{make_sure_Y0u_Also_$ecure_r00t}
 
-# Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
-
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
 
 tags:
   - tag_here

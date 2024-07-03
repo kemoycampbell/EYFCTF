@@ -4,7 +4,7 @@ category: Web
 description: "The kidnapper exploited RIT\u2019s database system via injection, which\
   \ allowed them to get sensitive information. Can you exploit the system to obtain\
   \ the same information? The website is http://rit.edu.\nhttp://\n\n\n\n\n\n\n\n\n\
-  \n\n\n\nhttp://localhost:5000"
+  \n\n\n\n\n\n\n\nhttp://localhost:5000"
 value: 400
 type: standard
 flags:
