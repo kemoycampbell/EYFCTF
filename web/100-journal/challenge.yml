@@ -1,26 +1,18 @@
-name: "Read Ritchie's Journal"
-author: "AUTHOR HERE"
+name: Read Ritchie's Journal
+author: michaelberrios-ntid - Michael
 category: Web
-
-description: Ritchie loves to write in his online journal; he doesn’t like paper journals. Perhaps you can find some hints about his whereabouts in his online journal at http://ritchie.journals.app.
-
+description: "Ritchie loves to write in his online journal; he doesn\u2019t like paper\
+  \ journals. Perhaps you can find some hints about his whereabouts in his online\
+  \ journal at http://ritchie.journals.app.\nhttp://\n\n\n\n\n\n\nhttp://localhost:9090"
 value: 100
 type: standard
-
 flags:
-  - EYF{Flag_HERE}
-
-# Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
-
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
-
+- EYF{F0r3st_Cr0at1a}
+exposeService:
+  protocol: http://
+  internalPort: 80
+  publicPort: 9090
 tags:
-  - tag_here
-
+- Web
 state: visible
-version: "0.1"
+version: '0.1'
