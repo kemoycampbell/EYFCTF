@@ -2,25 +2,25 @@ name: "JavaScript Login"
 author: "AUTHOR HERE"
 category: Web
 
-description: Ritchie realized that his online journal password was exposed, so he moved it to a more 'secure' location. Could you extract Ritchie’s password? The website is http://ritchie.journals.app.
+description: "Ritchie realized that his online journal credentials was exposed, so he moved it to a more \u2019secure\u2019 location. Could you extract Ritchie\u2019s credentials? The website is http://localhost:9091.\n\nThe flag\u2019s format is EYF{username_password}."
 
 value: 200
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{ritchie_My_H@rd3st_P@$$w0rd_Y3t}
 
 # Optionals (Uncomment below)
 # files: 
   # - FILE_HERE.txt
 
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
+exposeService:
+  protocol: http://
+  internalPort: 80
+  publicPort: 9091
 
 tags:
-  - tag_here
+  - web
 
 state: visible
 version: "0.1"
