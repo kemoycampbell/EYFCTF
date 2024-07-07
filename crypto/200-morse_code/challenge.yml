@@ -1,5 +1,5 @@
 name: "Morse Code"
-author: "AUTHOR HERE"
+author: "Kemoy Campbell"
 category: Crytography
 
 description: The kidnaper has level up their game. They realized that their first encryption was not secure at all... you should not be able to read this dot dot dot dot :-) 
@@ -8,11 +8,11 @@ value: 200
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{dot_dot_1t_is_just_morse_c0de}
 
 # Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
+files: 
+  - encrypted.txt
 
 # exposeService:
 #   protocol: http://
