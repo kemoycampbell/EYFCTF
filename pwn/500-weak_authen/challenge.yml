@@ -1,26 +1,22 @@
 name: "Weak Authentication"
-author: "AUTHOR HERE"
+author: "Kemoy Campbell"
 category: PWN
 
-description: Ah, you found the robot.....One of the paths will lead you to the kidnappers of Ritchie.  The kidnappers swore that no one will be able to guess the username and password! 
+description: Ah, you found the robot.....One of the paths will lead you to the kidnappers of Ritchie.  The kidnappers swore that no one will be able to guess the username and password! My fellow
+kidnapper, head to the underground. Only you know the way!
 
 value: 500
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{yell0w_J@cket_University_of_rochester_bad_m@scot!}
 
-# Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
 
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
+
+
 
 tags:
-  - tag_here
+  - weak authentication
 
 state: visible
 version: "0.1"

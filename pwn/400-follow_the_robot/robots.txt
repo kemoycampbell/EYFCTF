@@ -1,0 +1,13 @@
+User-agent: Googlebot
+Disallow: /undergroundtunnel.php
+
+
+User-agent: *
+Allow: /
+
+
+#AHHHH YOU FOUND THE ROBOT!!!!!!!!!!!!! 
+#YOU ARE REALLY A ROBOT. HERE IS YOUR FLAG EYF{R0b0t.txt_has_many_easter_eggs_@nd_s3crets!}
+
+#Here is a link to help you understand robots.txt and how it is useful in hacking
+#https://medium.com/@nipunnegi2002/unraveling-the-secrets-of-robots-txt-in-ethical-hacking-a-comprehensive-guide-7abba62f93a2

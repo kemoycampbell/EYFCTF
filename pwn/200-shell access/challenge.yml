@@ -4,19 +4,14 @@ category: PWN
 description: 'The kidnappers were able to log into Ritchie computer remotely. Ritchie
   is not following the security best practices. Hack into his computer and get the
   flag.
-
-
-
-  ssh localhost -p 22
-
-  ssh localhost -p 2222'
+  '
 value: 200
 type: standard
 flags:
 - EYF{n3v3r_use_c0mm0n_p@sswords}
 exposeService:
   protocol: ssh
-  internalPort: 2222
+  internalPort: 22
   publicPort: 2222
 tags:
 - remote access, shell access, pwn
