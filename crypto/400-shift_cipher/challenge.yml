@@ -1,8 +1,10 @@
 name: "Shift Cipher"
-author: "AUTHOR HERE"
+author: "Kemoy Campbell"
 category: Crytography
 
 description: The kidnappers decided that they will shift things up. They are now using real cipher instead of just changing the encode.... Can you shift and get the hidden message? 
+Our security team has included the encrypted text for you to decoded as well as the encryption code
+that the kidnappers were using.
 
 value: 400
 type: standard
@@ -11,16 +13,14 @@ flags:
   - EYF{Flag_HERE}
 
 # Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
+files: 
+  - encrypted.txt
+  - shiftshift.py
 
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
 
 tags:
-  - tag_here
+  - cryptography
+  - crypto
 
 state: visible
 version: "0.1"

@@ -8,11 +8,12 @@ value: 500
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{never_create_your_own_cryptography.Use_secure_and_proven_algorithms}
 
 # Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
+files: 
+ - encrypted.txt
+ - unbreakable.py
 
 # exposeService:
 #   protocol: http://
