@@ -2,12 +2,12 @@ name: Read Ritchie's Journal
 author: michaelberrios-ntid - Michael
 category: Web
 description: "Ritchie loves to write in his online journal; he doesn\u2019t like paper\
-  \ journals. Perhaps you can find some hints about his whereabouts in his online\
-  \ journal at http://ritchie.journals.app.\nhttp://\n\n\n\n\n\n\nhttp://localhost:9090"
+  \ journals. Perhaps you can find some hints about his last whereabouts in his online\
+  \ journal at \nhttp://localhost:9090\n\nThe flag\u2019s format is EYF{location1_location2}"
 value: 100
 type: standard
 flags:
-- EYF{F0r3st_Cr0at1a}
+- EYF{F0r3sts_Cr0at1a}
 exposeService:
   protocol: http://
   internalPort: 80
