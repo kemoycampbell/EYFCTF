@@ -2,22 +2,17 @@ name: "The default"
 author: "Tao Eng"
 category: PWN
 
-description: The kidnappers has been spying on Ritchie by hacked into Ritchie’s Wifi router. Can you login to Ritchie’s wifi? The wifi SSID is <b> Ritchie Wifi EYF</b>.
+description: "The kidnappers has been spying on Ritchie by hacked into Ritchie’s Wifi router. Can you login to Ritchie’s wifi? The wifi SSID are <b>EYF-CTF24-A</b>.
+or <b>EYF-CTF24-B</b>. Both are the same, pick one.
+"
 
 value: 100
 type: standard
 
 flags:
-  - EYF{admin, admin}
+  - EYF{EYF-CTF24-B_password}
+  - EYF{EYF-CTF24-A_password}
 
-# Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
-
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
 
 tags:
   - tag_here

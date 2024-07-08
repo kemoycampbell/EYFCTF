@@ -1,14 +1,14 @@
 name: "EXFIL-Meta Data"
-author: "AUTHOR HERE"
+author: "Kemoy Cambpell"
 category: Forensic
 
-description: Ritchie took a picture during vacation. Where was this picture taken? (lat, long) 
-
+description: "Ritchie took a picture during vacation. What is the camera model that was used to take this photo?
+Flag format: EYF{Camera Model Name}"
 value: 200
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{moto g 5G - 2023}
 
 # Optionals (Uncomment below)
 # files: 
