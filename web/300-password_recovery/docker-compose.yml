@@ -1,4 +1,4 @@
-version: '3.8'
+# version: '3.8' # there is no need to define a version anymore
 services:
   app:
     build:

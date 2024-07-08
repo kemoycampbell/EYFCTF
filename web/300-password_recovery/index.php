@@ -19,6 +19,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+// Set the character set to UTF-8
+if (!$conn->set_charset("utf8mb4")) {
+    printf("Error loading character set utf8mb4: %s\n", $conn->error);
+    exit();
+}
+
 // Fetch entries
 $sql = "SELECT entry_date, entry FROM entries WHERE user_id = 1 ORDER BY entry_date DESC";
 $result = $conn->query($sql);
@@ -77,8 +83,8 @@ $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
                 echo "<div class='entry'>";
-                echo "<div class='date'>" . htmlspecialchars($row['entry_date']) . "</div>";
-                echo "<div class='text'>" . htmlspecialchars($row['entry']) . "</div>";
+                echo "<div class='date'>" . htmlspecialchars($row['entry_date'], ENT_QUOTES, 'UTF-8') . "</div>";
+                echo "<div class='text'>" . htmlspecialchars($row['entry'], ENT_QUOTES, 'UTF-8') . "</div>";
                 echo "</div>";
             }
         } else {

@@ -1,10 +1,9 @@
 name: Password Recovery
 author: AUTHOR HERE
 category: Web
-description: "Ritchie realized that both approaches to secure his password were not\
-  \ secured at all, so he decided to store his password in the database. However,\
-  \ a kidnapper extracted the encrypted password from the database which is e8d6bef289b86a7c0a964e94241b4aed.\
-  \ Could you crack this password and successfully login to Ritchie\u2019s online"
+
+description: "Ritchie realized that both approaches to secure his password were not secured at all, so he decided to store his password in the database. However, a kidnapper extracted the encrypted password from the database which is e8d6bef289b86a7c0a964e94241b4aed. Could you crack this password and successfully login to Ritchie\u2019s online journal? We know that his username wasn't changed. Flag format EYF{Password}"
+
 value: 300
 type: standard
 flags:
