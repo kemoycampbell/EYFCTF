@@ -25,3 +25,13 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+    - {
+        content: "Maybe google back in time web???",
+        cost: 10
+    }
+    - {
+        content: "What is the reddit link? can you copy it and put it in the tool?",
+        cost: 15
+    }
