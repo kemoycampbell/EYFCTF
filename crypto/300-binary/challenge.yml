@@ -1,18 +1,18 @@
 name: "Binary in Video"
-author: "AUTHOR HERE"
+author: "Michael Berrios"
 category: Crytography
 
-description: Don't blink or you will miss the message!!! (Make a video with binary numbers moving horizontally, 10 secs).
+description: Don't blink or you will miss the message! Flag Format EYF{message}
 
 value: 300
 type: standard
 
 flags:
-  - EYF{Flag_HERE}
+  - EYF{Th1$_T1g3r_1s_1n_Dang3r}
 
 # Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
+files: 
+  - "Secret Message.gif"
 
 # exposeService:
 #   protocol: http://
@@ -20,7 +20,7 @@ flags:
 #   publicPort: ####
 
 tags:
-  - tag_here
+  - crypto
 
 state: visible
 version: "0.1"
