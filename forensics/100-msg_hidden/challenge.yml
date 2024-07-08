@@ -8,7 +8,11 @@ value: 100
 type: standard
 
 flags:
-  - EYF{Ritchie is waiting for a cab!}
+  - {
+    type: "static",
+    content: "EYF{RITCHIE_1s_st@nding}",
+    data: "case_insensitive"
+  }
 
 # Optionals (Uncomment below)
 files: 

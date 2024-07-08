@@ -16,4 +16,4 @@ tags:
 - remote access, shell access, pwn
 state: visible
 version: '0.1'
-connection_info: ssh localhost -p 2222
+connection_info: ssh 10.1.20.118 -p 2222

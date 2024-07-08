@@ -6,9 +6,12 @@ description: "The kidnaper has level up their game. They realized that their fir
 
 value: 200
 type: standard
-
 flags:
-  - EYF{dot_dot_1t_is_just_morse_c0de}
+- {
+  type: "static",
+  content: "EYF{dot_dot_1t_is_just_morse_c0de}",
+  data: "case_insensitive"
+}
 
 # Optionals (Uncomment below)
 files: 

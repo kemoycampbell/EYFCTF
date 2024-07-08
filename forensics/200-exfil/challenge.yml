@@ -11,8 +11,8 @@ flags:
   - EYF{moto g 5G - 2023}
 
 # Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
+files: 
+  - picture.jpg
 
 # exposeService:
 #   protocol: http://
