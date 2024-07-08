@@ -5,10 +5,6 @@ error_reporting(E_ALL);
 
 session_start();
 $servername = getenv("MYSQL_HOST");
-echo $servername;
-var_dump($_ENV);
-echo $_SERVER["MYSQL_HOST"];
-exit();
 $username = "root";
 $password = "";
 $dbname = "online_journal";
