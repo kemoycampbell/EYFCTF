@@ -28,3 +28,9 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+    - {
+        content: "Google for a tool called online stegnography",
+        cost: 10
+    }

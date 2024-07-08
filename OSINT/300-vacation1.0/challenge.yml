@@ -29,3 +29,14 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+    - {
+        content: "Maybe try google RITchie and see which picture looks the same?",
+        cost: 10
+    }
+    - {
+        content: "Read the link and find the location",
+        cost: 15
+    }
+

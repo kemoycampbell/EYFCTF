@@ -25,3 +25,9 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+    - {
+        content: "Google how to trace all bitcoin exchanges",
+        cost: 10
+    }

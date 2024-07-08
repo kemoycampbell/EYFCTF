@@ -24,3 +24,9 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+    - {
+        content: "Google for a tool call exiftool and upload your image",
+        cost: 10
+    }

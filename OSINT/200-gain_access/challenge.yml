@@ -26,3 +26,12 @@ tags:
 
 state: visible
 version: "0.1"
+hints:
+    - {
+        content: "What is his username?",
+        cost: 10
+    }
+    - {
+        content: "What is his password?",
+        cost: 15
+    }
