@@ -9,4 +9,3 @@ services:
       - .:/var/www/html #is use for live reload during development. remove when not using in development mode
       - ./apache/.htaccess:/var/www/html/underground/.htaccess
       - ./apache/.htpasswd:/etc/apache2/.htpasswd
-      - ./logs:/var/log/apache2

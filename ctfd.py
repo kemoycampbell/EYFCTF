@@ -90,7 +90,9 @@ def docker_container(directory):
             host = f"{protocol} {DOMAIN} {public_port}"
         
         #removing the old host before appending the new host
-        challenge_yml['description'] = description.replace(host, '') + '\n' + host
+        #challenge_yml['description'] = description.replace(host, '') + '\n' + host
+
+        challenge_yml['connection_info']= host
         
         
         #write the new challenge.yml

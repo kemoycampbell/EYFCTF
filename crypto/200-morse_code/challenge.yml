@@ -2,7 +2,7 @@ name: "Morse Code"
 author: "Kemoy Campbell"
 category: Crytography
 
-description: The kidnaper has level up their game. They realized that their first encryption was not secure at all... you should not be able to read this dot dot dot dot :-) 
+description: "The kidnaper has level up their game. They realized that their first encryption was not secure at all... you should not be able to read this dot dot dot dot :-) "
 
 value: 200
 type: standard
@@ -13,11 +13,6 @@ flags:
 # Optionals (Uncomment below)
 files: 
   - encrypted.txt
-
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
 
 tags:
   - tag_here

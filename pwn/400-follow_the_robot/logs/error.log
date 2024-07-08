@@ -1,4 +1,0 @@
-AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.80.2. Set the 'ServerName' directive globally to suppress this message
-[Sun Jul 07 14:24:18.974960 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
-[Sun Jul 07 14:24:18.975011 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
-[Sun Jul 07 14:24:37.204051 2024] [autoindex:error] [pid 19] [client 192.168.80.1:55676] AH01276: Cannot serve directory /var/www/html/underground/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive

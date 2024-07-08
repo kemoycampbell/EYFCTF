@@ -1,26 +1,18 @@
-name: "Follow the Robot"
-author: "AUTHOR HERE"
+name: Follow the Robot
+author: Kemoy Campbell
 category: PWN
-
-description: In a location that is only known to robots.... there are many secrets.... Can you navigate the bot world and find the secrets? 
-
+description: In a location that is only known to robots.... there are many secrets....
+  Can you navigate the bot world and find the secrets?
 value: 400
 type: standard
-
 flags:
-  - EYF{R0b0t.txt_has_many_easter_eggs_@nd_s3crets!}
-
-# Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
-
-# exposeService:
-#   protocol: http://
-#   internalPort: 80
-#   publicPort: ####
-
+- EYF{R0b0t.txt_has_many_easter_eggs_@nd_s3crets!}
+exposeService:
+  protocol: http"//
+  internalPort: 80
+  publicPort: 9999
 tags:
-  - tag_here
-
+- tag_here
 state: visible
-version: "0.1"
+version: '0.1'
+connection_info: http"//localhost:9999

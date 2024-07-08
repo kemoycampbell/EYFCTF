@@ -8,7 +8,11 @@ value: 400
 type: standard
 
 flags:
-  - EYF{MacKenzie_Mislan}
+  - {
+        type: "static",
+        content: "EYF{MacKenzie_Mislan}",
+        data: "case_insensitive",
+    }
 
 # Optionals (Uncomment below)
 # files: 

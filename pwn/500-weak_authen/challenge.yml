@@ -2,8 +2,8 @@ name: "Weak Authentication"
 author: "Kemoy Campbell"
 category: PWN
 
-description: Ah, you found the robot.....One of the paths will lead you to the kidnappers of Ritchie.  The kidnappers swore that no one will be able to guess the username and password! My fellow
-kidnapper, head to the underground. Only you know the way!
+description: "Ah, you found the robot.....One of the paths will lead you to the kidnappers of Ritchie.  The kidnappers swore that no one will be able to guess the username and password! My fellow
+kidnapper, head to the underground. Only you know the way!"
 
 value: 500
 type: standard

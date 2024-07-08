@@ -1,26 +1,20 @@
-name: "Password Recovery"
-author: "AUTHOR HERE"
+name: Password Recovery
+author: AUTHOR HERE
 category: Web
-
-description: "Ritchie realized that both approaches to secure his password were not secured at all, so he decided to store his password in the database. However, a kidnapper extracted the encrypted password from the database which is e8d6bef289b86a7c0a964e94241b4aed. Could you crack this password and successfully login to Ritchie\u2019s online journal?"
-
+description: "Ritchie realized that both approaches to secure his password were not\
+  \ secured at all, so he decided to store his password in the database. However,\
+  \ a kidnapper extracted the encrypted password from the database which is e8d6bef289b86a7c0a964e94241b4aed.\
+  \ Could you crack this password and successfully login to Ritchie\u2019s online"
 value: 300
 type: standard
-
 flags:
-  - EYF{orangetiger}
-
-# Optionals (Uncomment below)
-# files: 
-  # - FILE_HERE.txt
-
+- EYF{orangetiger}
 exposeService:
   protocol: http://
   internalPort: 80
   publicPort: 9092
-
 tags:
-  - web
-
+- web
 state: visible
-version: "0.1"
+version: '0.1'
+connection_info: http://localhost:9092

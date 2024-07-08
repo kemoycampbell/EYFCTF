@@ -9,7 +9,11 @@ type: standard
 
 # Add ignore case sensitivity (note)
 flags:
-  - EYF{Old Town_Dubrovnik_Croatia}
+  - {
+        type: "static",
+        content: "EYF{Old Town_Dubrovnik_Croatia}",
+        data: "case_insensitive",
+    }
 
 # Optionals (Uncomment below)
 files: 
