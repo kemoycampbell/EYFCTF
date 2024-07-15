@@ -12,3 +12,5 @@ RUN apt-get update \
     && apt-get install -y apache2-utils
 
 RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
+
+EXPOSE 9003

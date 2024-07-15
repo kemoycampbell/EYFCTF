@@ -6,3 +6,5 @@ COPY index.php /var/www/html/
 COPY script.js /var/www/html/
 COPY login.html /var/www/html/
 COPY journal_entries.csv /var/www/html/
+
+EXPOSE 9091

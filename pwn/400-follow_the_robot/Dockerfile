@@ -14,5 +14,7 @@ RUN apt-get update \
     && a2enmod rewrite \
     && a2enmod auth_basic
 
-COPY apache/httpd.conf /etc/apache2/httpd.conf
+#COPY apache/httpd.conf /etc/apache2/httpd.conf
+
+EXPOSE 9999
 
