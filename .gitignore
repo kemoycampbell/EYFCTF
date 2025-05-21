@@ -1,2 +1,4 @@
 .env
 .ctf/config
+mysql-data/
+ctfd-data/

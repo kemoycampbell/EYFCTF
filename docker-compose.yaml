@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  ctfd:
+    image: ctfd/ctfd:latest
+    container_name: ctfd
+    restart: always
+    ports:
+      - "80:8000"  # Map host port 80 to container port 8000
+    environment:
+      - DATABASE_URL=mysql+pymysql://ctfd:ctfd@db/ctfd
+      - REDIS_URL=redis://cache:6379
+    volumes:
+      - ./ctfd-data:/data
+    depends_on:
+      - db
+      - cache
+
+  db:
+    image: mysql:8.0
+    container_name: ctfd_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: ctfd
+      MYSQL_USER: ctfd
+      MYSQL_PASSWORD: ctfd
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+
+  cache:
+    image: redis:alpine
+    container_name: ctfd_cache
+    restart: always
+
+volumes:
+  ctfd-data:
+  mysql-data:
