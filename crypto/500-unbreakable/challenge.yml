@@ -25,3 +25,13 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+    - {
+        content: "Use the terminal to run the Python script.",
+        cost: 20
+    }
+    - {
+        content: "After running the Python script, copy and paste the contents of encrypted.txt into the terminal.",
+        cost: 30
+    }
