@@ -29,3 +29,7 @@ hints:
         content: "Google for a tool call exiftools and upload your image",
         cost: 10
     }
+    - {
+        content: "Use the Preview app on macOS to find the picture’s model information in the TIFF file under the Tools menu.",
+        cost: 20
+    }
