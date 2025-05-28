@@ -9,7 +9,7 @@ type: standard
 flags:
 - {
   type: "static",
-  content: "EYF{dot_dot_1t_is_just_morse_c0de}",
+  content: "EYF{DOT_DOT_1T_IS_JUST_MORSE_C0DE}",
   data: "case_insensitive"
 }
 
@@ -22,3 +22,12 @@ tags:
 
 state: visible
 version: "0.1"
+hints:
+    - {
+        content: "Use CyberChef to decode the code message.",
+        cost: 10
+    }
+    - {
+        content: "'From Morse Code' in Search...",
+        cost: 20
+    }
