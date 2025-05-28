@@ -33,7 +33,7 @@ hints:
         content: "Use CyberChef to encode the secret message.",
         cost: 20
     }
-     - {
+    - {
         content: "'From Binary' in Search...",
         cost: 30
     }
