@@ -25,3 +25,8 @@ tags:
 
 state: visible
 version: "0.1"
+hints:
+    - {
+        content: "Use CyberChef to decode the encrypted message.",
+        cost: 10
+    }
