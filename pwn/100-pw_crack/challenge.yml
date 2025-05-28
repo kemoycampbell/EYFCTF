@@ -19,3 +19,17 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+  - {
+      content: "What is the brand of the router?",
+      cost: 10
+  }
+  - {
+      content: "What is the popular default passwords for this router brand?",
+      cost: 20
+  }
+  - {
+      content: "Here is a link of the most popular passwords. People often dont change them or use weak passwords - https://nordpass.com/most-common-passwords-list/",
+      cost: 30
+  }
