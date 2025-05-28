@@ -2,8 +2,7 @@ name: "EXFIL-Meta Data"
 author: "Kemoy Cambpell"
 category: Forensic
 
-description: "Ritchie took a picture during vacation. What is the camera model that was used to take this photo?
-Flag format: EYF{Camera Model Name}"
+description: "Ritchie took a picture during vacation. What is the camera model that was used to take this photo? Flag format: EYF{Camera Model Name}"
 value: 200
 type: standard
 
@@ -27,6 +26,6 @@ version: "0.1"
 
 hints:
     - {
-        content: "Google for a tool call exiftool and upload your image",
+        content: "Google for a tool call exiftools and upload your image",
         cost: 10
     }
