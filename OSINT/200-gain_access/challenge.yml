@@ -33,5 +33,5 @@ hints:
     }
     - {
         content: "What is his password?",
-        cost: 15
+        cost: 20
     }
