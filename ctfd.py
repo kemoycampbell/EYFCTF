@@ -80,10 +80,14 @@ def docker_container(directory):
         protocol = challenge_yml['exposeService']['protocol']
         DOMAIN = config("CTFD_DOMAIN", default=None)
         description = challenge_yml['description']
+
+        page = ""
+        if 'page' in challenge_yml['exposeService']:
+            page = challenge_yml['exposeService']['page']
       
         #create the host based on the protocol
         if 'http' in protocol or 'https' in protocol:
-            host = f"{protocol}{DOMAIN}:{public_port}"
+            host = f"{protocol}{DOMAIN}:{public_port}/{page}"
         elif protocol == 'ssh':
             host = f"{protocol} {DOMAIN} -p {public_port}"
         elif protocol=='nc':
