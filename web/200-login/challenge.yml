@@ -16,7 +16,6 @@ exposeService:
 tags:
 - web
 state: visible
-version: '0.1'
 hints:
 - content: Ritchie is a tiger, so he likes things related to the forest.
   cost: 10

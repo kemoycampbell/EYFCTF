@@ -17,8 +17,7 @@ exposeService:
   page: login.html
 tags:
 - web
-state: visible
-version: '0.1'
+state: hidden
 hints:
 - content: The password is not encrypted.
   cost: 10
