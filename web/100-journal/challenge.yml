@@ -16,4 +16,9 @@ tags:
 - Web
 state: visible
 version: '0.1'
-connection_info: http://http://localhost:9090
+hints:
+- content: Ritchie is a tiger, so he likes to be in the forest
+  cost: 0
+- content: The question now is, in which country is the forest in?
+  cost: 0
+connection_info: http://localhost:9090/

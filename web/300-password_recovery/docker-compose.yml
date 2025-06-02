@@ -4,7 +4,7 @@ services:
     build:
       context: .
     ports:
-      - 9003:80
+      - 9002:80
     depends_on:
       - mysql
     environment:
@@ -20,14 +20,10 @@ services:
     environment: 
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
     ports:
-      - 3306:3306
+      - 3307:3306
     volumes:
       - data:/var/lib/mysql
       - ./setup.sql:/docker-entrypoint-initdb.d/setup.sql
       # - .:/var/www/html/
       - .:/var/www/html #is use for live reload during development. remove when not using in development mode
       - ./logs:/var/log/apache2
-  
-volumes:
-  data:
-  

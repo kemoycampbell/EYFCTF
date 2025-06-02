@@ -1,5 +1,5 @@
 name: Password Recovery
-author: AUTHOR HERE
+author: Michael Berrios
 category: Web
 description: "Ritchie realized that both approaches to secure his password were not\
   \ secured at all, so he decided to store his password in the database. However,\
@@ -14,8 +14,18 @@ exposeService:
   protocol: http://
   internalPort: 80
   publicPort: 9092
+  page: login.html
 tags:
 - web
 state: visible
 version: '0.1'
-connection_info: http://http://localhost:9092
+hints:
+- content: The password is not encrypted.
+  cost: 10
+- content: The password is hashed with MD5 hashing algorithm.
+  cost: 20
+- content: Google on how to crack an MD5 hashed password.
+  cost: 30
+- content: Use Crackstation.net
+  cost: 40
+connection_info: http://localhost:9092/login.html

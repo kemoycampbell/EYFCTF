@@ -20,10 +20,12 @@ version: '0.1'
 hints:
 - content: Ritchie is a tiger, so he likes things related to the forest.
   cost: 10
-- content: 'Maybe the password is in the source code of the web page? Google: How
-    to read web page source code?'
-  cost: 20
 - content: The username is ritchie, but the password is a bit more complicated than
     that.
+  cost: 20
+- content: 'Maybe the password is in the source code of the web page, on the script.js?
+    Google: How to read web page source code?'
   cost: 30
-connection_info: http://localhost:9091
+- content: Right click on the web page and view the source code, then click on script.js.
+  cost: 40
+connection_info: http://localhost:9091/login.html

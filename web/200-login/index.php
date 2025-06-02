@@ -1,11 +1,3 @@
-<?php
-// Check if cookie 'auth' is set and equals 'true'
-// if (!isset($_COOKIE['auth']) || $_COOKIE['auth'] !== 'true') {
-//     header("Location: /login.html");
-//     exit();
-// }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,6 +49,8 @@
 <body>
     <div class="container">
         <div class="heading">Ritchie's Diary</div>
+        <h2>Successfully Logged In</h2>
+        
         <?php
         $csvFile = 'journal_entries.csv';
 
