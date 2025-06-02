@@ -20,3 +20,9 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+- {
+    contents: "What paths did you find in the robots.txt? Try add these paths to the end of the url and see where they lead",
+    cost: 10
+  }

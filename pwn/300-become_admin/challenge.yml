@@ -1,11 +1,8 @@
 name: "Become Admin"
-author: "AUTHOR HERE"
+author: "Kemoy Campbell"
 category: PWN
 
-description: 'Using the username and password from the shell access challenge, log into the machine. Make yourself root and read the .rootFlag file.
-
-
-ssh localhost -p 2222'
+description: Using the username and password from the shell access challenge, log into the machine. Make yourself root and read the root flag file.
 
 value: 300
 type: standard
@@ -19,3 +16,23 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+- {
+    content: "Now that you have successfully log into as ritchie. You realized that ritchie is a low level! You need to level up to get more access. Search privilige escalation linux in google",
+    cost: 10
+ }
+
+- {
+    content: "Have you tried search how to become root in linux without password using sudo?",
+    cost: 20
+  }
+- {
+    content: "You can try the commands: sudo su or sudo -i or sudo su - . Pick one, you dont need to use all. Enter Ritchie's password after and you should level up. You will see 'root'",
+    cost: 30
+  }
+
+- {
+    content: "You need to change directory and go to the root's Desktop using cd ../ to go back up then you will find flag.txt",
+    cost: 40
+  }
