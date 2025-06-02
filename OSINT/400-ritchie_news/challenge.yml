@@ -29,3 +29,8 @@ tags:
 
 state: visible
 version: "0.1"
+hints:
+    - {
+        content: "Search terms are in the description.",
+        cost: 10
+    }

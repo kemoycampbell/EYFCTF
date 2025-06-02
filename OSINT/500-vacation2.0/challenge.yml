@@ -36,3 +36,12 @@ tags:
 
 state: visible
 version: "0.1"
+hints:
+    - {
+        content: "Lens will help sharpen the picture.",
+        cost: 10
+    }
+    - {
+        content: "Many tiles are not used for Flags.",
+        cost: 20
+    }
