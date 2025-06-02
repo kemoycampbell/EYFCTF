@@ -30,4 +30,9 @@ hints:
         content: "Use CyberChef to decode the encrypted message.",
         cost: 0
     }
+    - {
+        content: "Drag “From Base64” to Recipe",
+        cost: 0
+    }
+    
 

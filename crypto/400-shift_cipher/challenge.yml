@@ -2,9 +2,7 @@ name: "Shift Cipher"
 author: "Kemoy Campbell"
 category: Crytography
 
-description: "The kidnappers decided that they will shift things up. They are now using real cipher instead of just changing the encode.... Can you shift and get the hidden message? 
-Our security team has included the encrypted text for you to decoded as well as the encryption code
-that the kidnappers were using."
+description: "The kidnappers decided that they will shift things up. They are now using real cipher instead of just changing the encode.... Can you shift and get the hidden message? Our security team has included the encrypted text for you to decoded as well as the encryption code that the kidnappers were using."
 
 value: 400
 type: standard
@@ -23,3 +21,9 @@ tags:
 
 state: visible
 version: "0.1"
+
+hints:
+    - {
+        content: "Use the terminal to run the Python script.",
+        cost: 20
+    }

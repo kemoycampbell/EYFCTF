@@ -45,4 +45,3 @@ hints:
     content: "You can use cat <file> to read the file. Cat flag.txt should give you the flag",
     cost: 60
  }
-

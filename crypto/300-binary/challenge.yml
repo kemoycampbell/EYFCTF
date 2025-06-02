@@ -24,3 +24,16 @@ tags:
 
 state: visible
 version: "0.1"
+hints:
+    - {
+        content: "Google for how to split a GIF image.",
+        cost: 10
+    }
+    - {
+        content: "Use CyberChef to encode the secret message.",
+        cost: 20
+    }
+    - {
+        content: "'From Binary' in Search...",
+        cost: 30
+    }
