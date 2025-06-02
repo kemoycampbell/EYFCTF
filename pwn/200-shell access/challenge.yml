@@ -16,22 +16,4 @@ tags:
 - remote access, shell access, pwn
 state: visible
 version: '0.1'
-connection_info: ssh 129.21.65.187 -p 2222
-hints:
-- content: Google how to open ssh on windows cmd or kali terminal
-  cost: 10
-- content: To connect to a ssh you will need to type ssh <username>@<ip> -p <port>
-    in the terminal. You will need to guess ritchie's username.... maybe it is something
-    really simple? Maybe it is his name?
-  cost: 20
-- content: Ritchie is not following the security best practices. He is using a common
-    password for his ssh connection. You can find a list of common passwords online.
-  cost: 30
-- content: You will facepalm on this but the Ritchie's password is.....password
-  cost: 40
-- content: You can find the flag on the Desktop. Use pwd to see where you are. use
-    ls to see all files. use cd <folder> to go into that folder
-  cost: 50
-- content: You can use cat <file> to read the file. Cat flag.txt should give you the
-    flag
-  cost: 60
+connection_info: ssh http://localhost -p 2222

@@ -29,9 +29,9 @@ version: "0.1"
 hints:
     - {
         content: "What are the popular social media networks?",
-        cost: 10
+        cost: 0
     }
     - {
         content: "How do you search for someone on social media?",
-        cost: 15
+        cost: 0
     }
