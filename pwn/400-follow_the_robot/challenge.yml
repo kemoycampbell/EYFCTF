@@ -16,17 +16,18 @@ tags:
 state: visible
 version: '0.1'
 connection_info: http://129.21.65.187:9999
-
 hints:
+
 - {
-    content: "What does robots have to do with web?",
-    cost: 10
-  }
+    content: What does robots have to do with web?,
+  cost: 10
+}
 - {
-    content: "Have you tried searching for robots.txt?",
-    cost: 20
-  }
+  content: Have you tried searching for robots.txt?,
+  cost: 20
+}
 - {
-    content: "You need to open the robots.txt file in your browser by adding /robots.txt at the end of the url",
-    cost: 30
-  }
+  content: "You need to open the robots.txt file in your browser by adding /robots.txt
+    at the end of the url",
+  cost: 30
+}
