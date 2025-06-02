@@ -24,10 +24,14 @@ state: visible
 version: "0.1"
 hints:
     - {
-        content: "Use CyberChef to decode the code message.",
+        content: "Use the same cryptography tools from the previous challenage activity 'The Base 100' to decode the code message.",
         cost: 10
     }
     - {
-        content: "'From Morse Code' in Search...",
+        content: "How about try CyberChef?",
         cost: 20
+    }
+    - {
+        content: "'From Morse Code' in Search...",
+        cost: 30
     }

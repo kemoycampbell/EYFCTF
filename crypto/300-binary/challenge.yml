@@ -26,14 +26,18 @@ state: visible
 version: "0.1"
 hints:
     - {
-        content: "Google for how to split a GIF image.",
+        content: "You may need to split a GIF image.",
         cost: 10
     }
     - {
-        content: "Use CyberChef to encode the secret message.",
+        content: "You can search online for how to split a GIF image.",
         cost: 20
     }
     - {
-        content: "'From Binary' in Search...",
+        content: "Use the same cryptography tools from the previous challenge lab to encode the secret message.",
         cost: 30
+    }
+    - {
+        content: "'From Binary' in Search...",
+        cost: 40
     }

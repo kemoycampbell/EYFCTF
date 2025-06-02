@@ -28,10 +28,18 @@ version: "0.1"
 
 hints:
     - {
-        content: "Use the terminal to run the Python script.",
+        content: "Solving this challenge is similar to the previous challenge, number 400.",
+        cost: 10
+    }
+    - {
+        content: "Shift the number backward by 10 positions to decrypt, and wrap around using modulo 26.",
         cost: 20
     }
     - {
-        content: "After running the Python script, copy and paste the contents of encrypted.txt into the terminal.",
+        content: "Use the terminal to run the Python script.",
         cost: 30
+    }
+    - {
+        content: "After running the Python script, copy and paste the contents of encrypted.txt into the terminal.",
+        cost: 40
     }
