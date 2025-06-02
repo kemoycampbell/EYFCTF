@@ -24,6 +24,23 @@ version: "0.1"
 
 hints:
     - {
-        content: "Use the terminal to run the Python script.",
+        content: "The message looks scrambled, but the letters seem familiar. Could it be a simple substitution?
+        Try shifting each letter backward in the alphabet. Start small—maybe 1, 2, or 3 letters.",
+        cost: 10
+    }
+    - {
+        content: "What happens if you shift 'p' back by 3 letters? What about 'b'?",
         cost: 20
     }
+    - {
+        content: "Online Caesar cipher decoders can help you test your theory.",
+        cost: 30
+    }
+    - {
+        content: "Use the terminal to run the Python script.",
+        cost: 40
+    }
+    - {
+        content: "After running the Python script, copy and paste the contents of encrypted.txt into the terminal.",
+        cost: 50
+    } 
