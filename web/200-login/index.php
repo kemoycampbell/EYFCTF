@@ -1,3 +1,11 @@
+<?php
+// Check if cookie 'auth' is set and equals 'true'
+// if (!isset($_COOKIE['auth']) || $_COOKIE['auth'] !== 'true') {
+//     header("Location: /login.html");
+//     exit();
+// }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +17,9 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             margin: 0;
-            padding: 0;
+            padding: 40px 0; /* Add some vertical spacing */
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
         }
         .container {
             background-color: #fff;

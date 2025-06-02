@@ -1,9 +1,9 @@
 name: JavaScript Login
-author: AUTHOR HERE
+author: Michael Berrios
 category: Web
 description: "Ritchie realized that his online journal credentials was exposed, so\
   \ he moved it to a more \u2019secure\u2019 location. Could you extract Ritchie\u2019\
-  s credentials? The website is .\n\nThe flag\u2019s format is EYF{username_password}."
+  s credentials? The flag\u2019s format is EYF{username_password}."
 value: 200
 type: standard
 flags:
@@ -12,8 +12,18 @@ exposeService:
   protocol: http://
   internalPort: 80
   publicPort: 9091
+  page: login.html
 tags:
 - web
 state: visible
 version: '0.1'
-connection_info: http://http://localhost:9091
+hints:
+- content: Ritchie is a tiger, so he likes things related to the forest.
+  cost: 10
+- content: 'Maybe the password is in the source code of the web page? Google: How
+    to read web page source code?'
+  cost: 20
+- content: The username is ritchie, but the password is a bit more complicated than
+    that.
+  cost: 30
+connection_info: http://localhost:9091
