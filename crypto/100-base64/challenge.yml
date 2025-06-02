@@ -27,11 +27,15 @@ state: visible
 version: "0.1"
 hints:
     - {
-        content: "Use CyberChef to decode the encrypted message.",
+        content: "Try to use Boxentriq, CyberChef or CrackStation to decode the encrypted message.",
         cost: 0
     }
     - {
-        content: "Drag “From Base64” to Recipe",
+        content: "How about use the CyberChef to decode the encrypted message?",
+        cost: 0
+    }
+    - {
+        content: "In the CyberChef, drag “From Base64” to Recipe",
         cost: 0
     }
     
