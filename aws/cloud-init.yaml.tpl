@@ -25,7 +25,7 @@ write_files:
       sudo chmod +x /usr/local/bin/docker-compose
       sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
-      sudo -u ec2-user bash -c '
+      sudo -u ec2-user CTFD_YAML_B64="$CTFD_YAML_B64" bash -c '
         cd ~
         git clone https://github.com/kemoycampbell/EYFCTF
         cd EYFCTF
@@ -34,12 +34,13 @@ write_files:
         python3 -m venv eyfctf_venv
         source eyfctf_venv/bin/activate
         pip install -r requirements.txt
+        docker-compose up -d
 
         cd aws && python3 provision.py "base64:$CTFD_YAML_B64"
         cd .. && python3 ctfd.py
         source eyfctf_venv/bin/deactivate
 
-        docker-compose up -d
+        
       '
 
 runcmd:
