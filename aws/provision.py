@@ -163,8 +163,9 @@ def create_dot_env(token, public_ip):
 # print(create_user_token())
 
 wait_until_server_ready()
-token = create_user_token()
 execute_ctf_setup()
+token = create_user_token()
+
 public_ip = get_current_host_public_ip()
 create_dot_env(token["data"]["value"], public_ip)
 
