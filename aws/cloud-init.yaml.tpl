@@ -3,12 +3,6 @@ package_update: true
 package_upgrade: true
 
 write_files:
-  - path: /home/ec2-user/.ctfd.yaml
-    permissions: '0600'
-    owner: ec2-user:ec2-user
-    encoding: b64
-    content: ${ctfd_config_yaml_base64}
-
   - path: /home/ec2-user/setup.sh
     permissions: '0755'
     owner: ec2-user:ec2-user
@@ -41,19 +35,16 @@ write_files:
         cd EYFCTF
         git checkout main
 
-        chmod 755 ctfd-setup
-
-        cp ~/.ctfd.yaml .ctfd.yaml
 
         python3 -m venv eyfctf_venv
         source eyfctf_venv/bin/activate
         pip install -r requirements.txt
+
+        python3 cd && provision.py ${ctfd_yaml_base64}
+        python3 cd ../ && ctfd.py
         source eyfctf_venv/bin/deactivate
 
         docker-compose up -d
-        cd aws && python3 provision.py
-
-        cd ../ && python3 ctfd.py
       '
 
 runcmd:

@@ -4,11 +4,25 @@ import subprocess
 import os
 import yaml
 from bs4 import BeautifulSoup
+import sys
+import base64
 
 
 url = "http://localhost"
 ctf_setup_path = os.path.abspath(os.path.join(os.getcwd(), "../ctfd-setup"))
-yaml_file_path = os.path.abspath(os.path.join(os.getcwd(), "../.ctfd.yaml"))
+
+# we either have a .ctfd.yaml file in the root or we are given a base64 encoded string of the yaml file
+if len(sys.argv) > 1:
+    #if the first argument is a base64 encoded string, decode it
+    yaml_content = sys.argv[1]
+    if sys.argv[1].startswith("base64:"):
+        yaml_content = yaml_content[7:]  # remove the "base64:" prefix
+    yaml_content = yaml_content.encode('utf-8')
+    yaml_file_path = os.path.abspath(os.path.join(os.getcwd(), "ctfd.yaml"))
+    with open(yaml_file_path, 'wb') as file:
+        file.write(base64.b64decode(yaml_content))
+else:
+    yaml_file_path = os.path.abspath(os.path.join(os.getcwd(), "../.ctfd.yaml"))
 
 def wait_until_server_ready():
     while True:
@@ -153,3 +167,7 @@ token = create_user_token()
 execute_ctf_setup()
 public_ip = get_current_host_public_ip()
 create_dot_env(token["data"]["value"], public_ip)
+
+#clean up the .yaml file if it was created from a base64 encoded string
+if os.path.exists(yaml_file_path) and len(sys.argv) > 1:
+    os.remove(yaml_file_path)

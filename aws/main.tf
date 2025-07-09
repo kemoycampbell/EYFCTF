@@ -83,10 +83,12 @@ resource "aws_instance" "ec2" {
     Name = "ec2-${count.index + 1}"
   }
 
-  user_data = templatefile("cloud-init.yaml", {
-    ctfd_config_yaml = file("../.ctfd.yaml")
-  })
-
+  user_data = templatefile(
+    "${path.module}/cloud-init.yaml.tpl",
+    {
+      ctfd_yaml_base64 = base64encode(file("${path.module}/../.ctfd.yaml"))
+    }
+  )
 }
 
 output "instance_public_ips" {
