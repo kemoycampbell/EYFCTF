@@ -52,6 +52,8 @@ write_files:
 
         docker-compose up -d
         cd aws && python3 provision.py
+
+        cd ../ && python3 ctfd.py
       '
 
 runcmd:
