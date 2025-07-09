@@ -2,3 +2,14 @@
 .ctf/config
 mysql-data/
 ctfd-data/
+
+
+# Ignore Terraform state files
+*.tfstate
+**/.tfstate.*
+*.tfstate.backup
+
+*.secret.auto.tfvars
+.terraform/
+
+.ctfd.yaml
