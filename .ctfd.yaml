@@ -1,16 +1,11 @@
-appearance:
-  name: 'EYF CTF'
-  description: 'My CTF description'
-
-
 admin:
-  name: 'admin'
-  email: 'admin'
-  password: 'password'
-
+  email: admin@super.ctf
+  name: admin
+  password: Ri5eSFm_r2WEntozP8T7Yw
+appearance:
+  description: My CTF description
+  name: EYF CTF
+mode: teams
 time:
-  start: '1751692200'
-  end: '1754665140'
-
-mode: users
-
+  end: '1753780800'
+  start: '1752493200'
