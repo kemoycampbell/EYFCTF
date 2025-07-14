@@ -65,6 +65,8 @@ def execute_ctf_setup():
     except subprocess.CalledProcessError as e:
         print(f"Error executing ctf-setup: {e}")
 
+    time.sleep(15)
+
 
 def html_parser(text):
     return BeautifulSoup(text, 'html.parser')
