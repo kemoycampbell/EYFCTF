@@ -6,10 +6,13 @@ import yaml
 from bs4 import BeautifulSoup
 import sys
 import base64
+import secrets
 
 
 url = "http://localhost"
 ctf_setup_path = os.path.abspath(os.path.join(os.getcwd(), "../ctfd-setup"))
+admin_password = secrets.token_urlsafe(16)  # Generate a random password for the admin user
+
 
 # we either have a .ctfd.yaml file in the root or we are given a base64 encoded string of the yaml file
 if len(sys.argv) > 1:
@@ -46,7 +49,15 @@ def execute_ctf_setup():
         print(".ctf.yaml file not found. Please ensure it is in the current directory.")
         return
     try:
+
         #execute the ctf-setup binary with the yaml file and the url
+        #open the yaml file and replace the admin password with the generated one
+        with open(yaml_file_path, 'r') as file:
+            config = yaml.safe_load(file)
+            config['admin']['password'] = admin_password  # Set the admin password
+        with open(yaml_file_path, 'w') as file:
+            yaml.safe_dump(config, file)
+
         subprocess.run([ctf_setup_path, "--file", yaml_file_path, "--url", url], check=True)
         print("CTF setup executed successfully.")
     except subprocess.CalledProcessError as e:
@@ -60,7 +71,6 @@ def login_with_crf():
     with open(yaml_file_path, 'r') as file:
         config = yaml.safe_load(file)
         admin_username = config['admin']['email']
-        admin_password = config['admin']['password']
     
     #we want a presistent session
     session = requests.Session()
@@ -157,6 +167,7 @@ def create_dot_env(token, public_ip):
         env_file.write(f"CTFD_URL=http://{public_ip}\n")
         env_file.write(f"CTFD_DOMAIN={public_ip}\n")
         env_file.write(f"CTFD_TOKEN={token}\n")
+        env_file.write(f"CTFD_ADMIN_PASSWORD={admin_password}\n")
     print(f".env file created at {env_file_path}")
 
 # print(login_with_crf())

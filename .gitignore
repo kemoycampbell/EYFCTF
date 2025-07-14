@@ -12,4 +12,3 @@ ctfd-data/
 *.secret.auto.tfvars
 .terraform/
 
-.ctfd.yaml

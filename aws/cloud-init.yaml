@@ -36,7 +36,7 @@ write_files:
         pip install -r requirements.txt
         docker-compose up -d
 
-        cd aws && python3 provision.py "base64:$CTFD_YAML_B64"
+        cd aws && python3 provision.py
         cd .. && python3 ctfd.py
         source eyfctf_venv/bin/deactivate
 
