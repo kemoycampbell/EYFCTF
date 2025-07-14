@@ -9,8 +9,8 @@ admin:
   password: 'password'
 
 time:
-  start: "1751692200"
-  end: "1754665140"
+  start: '1751692200'
+  end: '1754665140'
 
 mode: users
 
