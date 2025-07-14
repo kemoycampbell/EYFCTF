@@ -38,6 +38,8 @@ def wait_until_server_ready():
         except requests.ConnectionError:
             print("Waiting for server to be ready...")
         time.sleep(5)
+    
+    time.sleep(20)
 
 
 def execute_ctf_setup():
